@@ -1,0 +1,36 @@
+# Ambiente virtual
+venv/
+.env
+
+# SQLite
+*.sqlite3
+*.db
+
+# Alembic
+alembic/versions/
+
+# Pycache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# VSCode
+.vscode/
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Testes (se usar pytest cache)
+.pytest_cache/
+htmlcov/
+.coverage
+.tox/
+
+# MacOS / Linux / Windows
+.DS_Store
+Thumbs.db
